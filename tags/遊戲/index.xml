@@ -16,7 +16,11 @@
       <pubDate>Fri, 25 Jun 2021 23:21:30 +0800</pubDate>
       
       <guid>https://raichancat.github.io/2021/unreal-dump/</guid>
-      <description>Desc Text.</description>
+      <description>不要拿來做一些奇怪的事，OK？
+拆包的一些基本常識  UE4 的素材裝在遊戲目錄底下的 Content/Paks 裡面的 Pak 檔，檔名上面會註明平台 -WindowsNoEditor 或是 -AndroidASTC 之類的 UE4 的執行檔放在 Binaries 裡面，像 Windows 會存放在 Binaries\Win64 裡面，通常檔名會帶有 -Win64-Shipping.exe  簡易的流程  絕大多數的 UE4 遊戲會將 pak 加密，因此我們要從遊戲運行當中擷取 AES 的金鑰。 透過專門的解包的工具將東西取出 透過能讀取 uassets 的工具來檢視裡面的內容  流程 AES 金鑰尋找   準備好 pak 檔案以及遊戲 exe 執行檔
+  下載 AES Key Finder 1.9 解壓縮
+  將遊戲 exe 執行檔貼到解壓縮後的 AES Key Finder 資料夾底下
+  將遊戲執行檔 exe 拖到 RUN Find 256-bit UE4 AES Key.</description>
     </item>
     
   </channel>
