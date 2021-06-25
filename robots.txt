@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://raichancat.github.io/sitemap.xml
