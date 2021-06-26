@@ -72,8 +72,13 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "大家安安！"
-        Content: 這邊是小雷的小窩喔～
+        Title: "大家安安！\U0001F43E"
+        Content: >
+            這邊是小雷的小窩喔～
+
+            - 貓貓我會在這編寫一堆沒營養的廢文記錄一些東西喵
+            
+            - 歡迎大家隨意晃晃喔（翻滾翻滾）
 
     socialIcons:
         - name: facebook
@@ -131,9 +136,9 @@ menu:
 publishDir: "docs"
 
 sitemap:
-    changefreq: daily
-    filename: sitemap.xml
-    priority: 0.5
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
