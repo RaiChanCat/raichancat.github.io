@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>小雷的雜記堆</title>
-    <link>https://raichancat.github.io/</link>
-    <description>Recent content on 小雷的雜記堆</description>
+    <title>Quest2 on 小雷的雜記堆</title>
+    <link>https://raichancat.github.io/tags/quest2/</link>
+    <description>Recent content in Quest2 on 小雷的雜記堆</description>
     <image>
       <url>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 26 Jun 2021 15:53:40 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Jun 2021 15:53:40 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/quest2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quest 2 臉部靠墊過敏災情免費升級更換 VRCover ?? 好耶</title>
       <link>https://raichancat.github.io/2021/quest2-cover-replace/</link>
@@ -24,19 +24,6 @@
   申請出去之後客服就會寄一封信，點擊上面的「此處」就能夠購買 0 元的眼罩   購買眼罩，注意結帳的金額 -29$，點選結帳   填寫購買資訊即可下單即可，記得收件資訊要使用英文資訊
 郵局 - 英文地址音譯   下單後這筆訂單不會出現在你 Oculus 的購買紀錄裡面，僅能從 email 的信裡面查看訂單狀態。
 收貨  2021/06/21 15:09 提交問題支援單 2021/06/21 15:55 收到替換品購買連結 2021/06/21 16:00 下單 2021/06/23 02:06 美國出貨 2021/06/25 11:55 到貨  離譜的速度到貨了，連 EZWay 都來不及按 ww</description>
-    </item>
-    
-    <item>
-      <title>研究！Unreal Engine 4 Dump 遊戲素材</title>
-      <link>https://raichancat.github.io/2021/unreal-dump/</link>
-      <pubDate>Fri, 25 Jun 2021 23:21:30 +0800</pubDate>
-      
-      <guid>https://raichancat.github.io/2021/unreal-dump/</guid>
-      <description>不要拿來做一些奇怪的事，OK？
-拆包的一些基本常識  UE4 的素材裝在遊戲目錄底下的 Content/Paks 裡面的 Pak 檔，檔名上面會註明平台 -WindowsNoEditor 或是 -AndroidASTC 之類的 UE4 的執行檔放在 Binaries 裡面，像 Windows 會存放在 Binaries\Win64 裡面，通常檔名會帶有 -Win64-Shipping.exe  簡易的流程  絕大多數的 UE4 遊戲會將 pak 加密，因此我們要從遊戲運行當中擷取 AES 的金鑰。 透過專門的解包的工具將東西取出 透過能讀取 uassets 的工具來檢視裡面的內容  流程 AES 金鑰尋找   準備好 pak 檔案以及遊戲 exe 執行檔
-  下載 AES Key Finder 1.9 解壓縮
-  將遊戲 exe 執行檔貼到解壓縮後的 AES Key Finder 資料夾底下
-  將遊戲執行檔 exe 拖到 RUN Find 256-bit UE4 AES Key.</description>
     </item>
     
   </channel>
