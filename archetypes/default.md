@@ -1,14 +1,16 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-tags: ["遊戲"]
+tags:
+- 
+categories:
+- 
 author: "小雷"
 showToc: true
 TocOpen: true
 draft: false
 hidemeta: false
 comments: false
-description: "Desc Text."
 disableShare: false
 disableHLJS: false
 hideSummary: false
