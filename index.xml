@@ -9,7 +9,19 @@
       <link>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 26 Jun 2021 15:53:40 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Jun 2021 19:17:55 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>停損點抵達！ Openithm 初號機失敗紀錄</title>
+      <link>https://raichancat.github.io/2021/openithm-v1/</link>
+      <pubDate>Sun, 27 Jun 2021 19:17:55 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/2021/openithm-v1/</guid>
+      <description>這篇不是一篇教學，而是記錄一些內容好讓我一兩個月後能回來翻。
+ 關於 Openithm 這玩意網路上的資訊頗少的，所以很多東西都只能頻經驗跟推測。當初就是看到有人兜出來一個寫好的韌體跟 3D 建模我就下去做了，做了之後才意識到這東西滿多 know-how，好像不是什麼短期就能一次搞定的東西短期就能一次搞定的東西。（雖然我做之前還天真地以為頻自己的技能能一次把所有東西都搞定）
+反正我的紀錄就寫在這邊，希望有誰能看著堆屍體把東西做出來吧喵。
+成本試算  JLCPCB PCB 洗版 (包含10片主板 20片感測板) $550 蝦皮 外殼 -&amp;gt; 消耗掉一捲 PLA 耗材（含失敗）　$500 蝦皮 客製壓克力切割 $540 蝦皮 Sparkfun Teensy LC $620 蝦皮 WS2812B LED 燈條 $189 電料行 紅外線 LED 發射接收、排針、電阻、單芯線雜七雜八 $450 蝦皮中國 74HC4051 模組 $38 蝦皮中國 8P 30cm 排線 x10 $90 蝦皮中國 3P 30cm 排線 x10 $60 蝦皮中國 銅箔膠帶 0.05mm 30mm 30m $250 淘寶 插針跟母座 $200 淘寶 1/8W 精密電阻 $50 時間與心力 $無價  至少花了 ~3530，以及死掉的心 www</description>
+    </item>
+    
     <item>
       <title>Quest 2 臉部靠墊過敏災情免費升級更換 VRCover ?? 好耶</title>
       <link>https://raichancat.github.io/2021/quest2-cover-replace/</link>
