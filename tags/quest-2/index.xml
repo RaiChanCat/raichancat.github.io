@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>遊戲 on 小雷的雜記堆</title>
-    <link>https://raichancat.github.io/tags/%E9%81%8A%E6%88%B2/</link>
-    <description>Recent content in 遊戲 on 小雷的雜記堆</description>
+    <title>Quest 2 on 小雷的雜記堆</title>
+    <link>https://raichancat.github.io/tags/quest-2/</link>
+    <description>Recent content in Quest 2 on 小雷的雜記堆</description>
     <image>
       <url>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 30 Jun 2021 23:40:38 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/%E9%81%8A%E6%88%B2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Jun 2021 23:40:38 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/quest-2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>開箱！Quest 2 Halo Strap	- CP 值不錯高的廉價副廠頭戴</title>
       <link>https://raichancat.github.io/2021/quest2-halo-strap/</link>
@@ -38,35 +38,6 @@ OK，所以開箱就小小的到這邊
  基本上我就在這邊簡單的做一個小評
  那個看起來跟用起來的感覺的確不太像是一個 765 元的玩意 舒適度的確有極大幅的提升，已經回不去了 眼罩的部分能確實平均的壓在臉上 轉頭頭顯會比較穩定，不會被甩出去的感覺 眼鏡搭配這個頭戴之後會被卡住，眼鏡就不會在裡面滾來滾去，失焦，或是刮傷裡面的鏡片了  我覺得對於一個幾百塊的頭戴來說我覺得夠了，至少我平常玩 Beatsaber 或是其他遊戲的體驗真的有大幅提升，感覺還不賴&amp;hellip; 這個我覺得是能推薦給大家拉，只是不推薦在台灣的拍賣買就是了（真的神扯貴）
 不過跟那個究極方案（Quest 2 轉接 HTC Vive Deluxe 頭戴）比起來，舒適度、做工以及便利性還是差了一截就是了，預算有夠，而且有能力搞到一台那個頭戴的話我覺得比較值得。（但是那個是3500+的玩意唉，一個能買這個5台)</description>
-    </item>
-    
-    <item>
-      <title>Quest 2 臉部靠墊過敏災情免費升級更換 VRCover ?? 好耶</title>
-      <link>https://raichancat.github.io/2021/quest2-cover-replace/</link>
-      <pubDate>Sat, 26 Jun 2021 15:53:40 +0800</pubDate>
-      
-      <guid>https://raichancat.github.io/2021/quest2-cover-replace/</guid>
-      <description>前陣子有在 Reddit 看到關於 Quest 2 的那個原廠天鵝絨臉部靠墊會引發部分使用者的過敏反應的訊息，於是官方就給了一個能夠申請臉部靠墊替換品的方案，所以這邊簡單紀錄一下整個更換的流程以及收到的東西。
-申請條件 基本上只要符合這些條件，都能申請一個新的臉部靠墊：
- 2021/1/4 之前製造 序號前五碼為 1WMVR 或 1WMHH 倒數第四碼為 0  序號的部分最容易查看的地方就在頭顯右側把那個頭戴的固定器拆掉，寫在上面，建議可以抄起來備用
-不過 Facebook 官方沒有出天鵝絨襯墊以外的臉部靠墊，所以是改升級送 VR Cover 的皮質靠墊，這個對於使用體驗可說是大大大大的提升啊！希望他們下一代原廠就用皮製的，順便附上鼻樑防漏光靠墊吧
-申請流程   打開 聯絡我們，點選上面的提交支援問題單   登入 Oculus 帳號後，填寫問題支援單（右上方能將問題單切為中文） 將有打 * 號的填寫即可
-  申請出去之後客服就會寄一封信，點擊上面的「此處」就能夠購買 0 元的眼罩   購買眼罩，注意結帳的金額 -29$，點選結帳   填寫購買資訊即可下單即可，記得收件資訊要使用英文資訊
-郵局 - 英文地址音譯   下單後這筆訂單不會出現在你 Oculus 的購買紀錄裡面，僅能從 email 的信裡面查看訂單狀態。
-收貨  2021/06/21 15:09 提交問題支援單 2021/06/21 15:55 收到替換品購買連結 2021/06/21 16:00 下單 2021/06/23 02:06 美國出貨 2021/06/25 11:55 到貨  離譜的速度到貨了，連 EZWay 都來不及按 ww</description>
-    </item>
-    
-    <item>
-      <title>研究！Unreal Engine 4 Dump 遊戲素材</title>
-      <link>https://raichancat.github.io/2021/unreal-dump/</link>
-      <pubDate>Fri, 25 Jun 2021 23:21:30 +0800</pubDate>
-      
-      <guid>https://raichancat.github.io/2021/unreal-dump/</guid>
-      <description>不要拿來做一些奇怪的事，OK？
-拆包的一些基本常識  UE4 的素材裝在遊戲目錄底下的 Content/Paks 裡面的 Pak 檔，檔名上面會註明平台 -WindowsNoEditor 或是 -AndroidASTC 之類的 UE4 的執行檔放在 Binaries 裡面，像 Windows 會存放在 Binaries\Win64 裡面，通常檔名會帶有 -Win64-Shipping.exe  簡易的流程  絕大多數的 UE4 遊戲會將 pak 加密，因此我們要從遊戲運行當中擷取 AES 的金鑰。 透過專門的解包的工具將東西取出 透過能讀取 uassets 的工具來檢視裡面的內容  流程 AES 金鑰尋找   準備好 pak 檔案以及遊戲 exe 執行檔
-  下載 AES Key Finder 1.9 解壓縮
-  將遊戲 exe 執行檔貼到解壓縮後的 AES Key Finder 資料夾底下
-  將遊戲執行檔 exe 拖到 RUN Find 256-bit UE4 AES Key.</description>
     </item>
     
   </channel>

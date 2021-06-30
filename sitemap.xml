@@ -4,21 +4,70 @@
   
   <url>
     <loc>https://raichancat.github.io/2021/</loc>
-    <lastmod>2021-06-29T22:42:49+08:00</lastmod>
+    <lastmod>2021-06-30T23:40:38+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://raichancat.github.io/categories/</loc>
-    <lastmod>2021-06-29T22:42:49+08:00</lastmod>
+    <lastmod>2021-06-30T23:40:38+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://raichancat.github.io/tags/quest-2/</loc>
+    <lastmod>2021-06-30T23:40:38+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://raichancat.github.io/tags/</loc>
-    <lastmod>2021-06-29T22:42:49+08:00</lastmod>
+    <lastmod>2021-06-30T23:40:38+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://raichancat.github.io/tags/vr/</loc>
+    <lastmod>2021-06-30T23:40:38+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://raichancat.github.io/</loc>
+    <lastmod>2021-06-30T23:40:38+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://raichancat.github.io/tags/%E7%A1%AC%E9%AB%94/</loc>
+    <lastmod>2021-06-30T23:40:38+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://raichancat.github.io/tags/%E9%81%8A%E6%88%B2/</loc>
+    <lastmod>2021-06-30T23:40:38+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://raichancat.github.io/categories/%E9%81%8A%E6%88%B2/</loc>
+    <lastmod>2021-06-30T23:40:38+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://raichancat.github.io/2021/quest2-halo-strap/</loc>
+    <lastmod>2021-06-30T23:40:38+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -32,13 +81,6 @@
   
   <url>
     <loc>https://raichancat.github.io/categories/%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1/</loc>
-    <lastmod>2021-06-29T22:42:49+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://raichancat.github.io/</loc>
     <lastmod>2021-06-29T22:42:49+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -87,13 +129,6 @@
   </url>
   
   <url>
-    <loc>https://raichancat.github.io/categories/%E9%81%8A%E6%88%B2/</loc>
-    <lastmod>2021-06-27T19:17:55+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://raichancat.github.io/2021/quest2-cover-replace/</loc>
     <lastmod>2021-06-26T15:53:40+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -102,27 +137,6 @@
   
   <url>
     <loc>https://raichancat.github.io/tags/quest2/</loc>
-    <lastmod>2021-06-26T15:53:40+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://raichancat.github.io/tags/vr/</loc>
-    <lastmod>2021-06-26T15:53:40+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://raichancat.github.io/tags/%E7%A1%AC%E9%AB%94/</loc>
-    <lastmod>2021-06-26T15:53:40+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://raichancat.github.io/tags/%E9%81%8A%E6%88%B2/</loc>
     <lastmod>2021-06-26T15:53:40+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
