@@ -4,7 +4,7 @@ date: 2021-06-26T15:53:40+08:00
 tags:
 - 遊戲
 - 硬體
-- Quest2
+- Quest 2
 - VR
 categories:
 - 遊戲
