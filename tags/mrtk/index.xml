@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>MRTK on 小雷的雜記堆</title>
+    <link>https://raichancat.github.io/tags/mrtk/</link>
+    <description>Recent content in MRTK on 小雷的雜記堆</description>
+    <image>
+      <url>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 14 Jul 2021 11:01:00 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/mrtk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HoloLens - MRTK 如何安裝 AppX 安裝檔</title>
+      <link>https://raichancat.github.io/2021/hololens-appx-install/</link>
+      <pubDate>Wed, 14 Jul 2021 11:01:00 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/2021/hololens-appx-install/</guid>
+      <description>Unity 版本：2020.3.13
+MRTK 版本：2.7.2
+透過這種方法，安裝前須先將舊版軟體解除安裝 準備 將編好的 Appx 準備好，並且將 HoloLens 與電腦連接同一個 WiFi (網路) 底下。（你可以從 HoloLens 的 WiFi 設定檢查你的 IP）
+Windows 裝置入口網站 若已設定過可以跳過 HoloLens 到 設定 &amp;gt; 更新與安全性 &amp;gt; 開發人員專用 底下開啟 裝置入口網站
+電腦打開瀏覽器，輸入 HoloLens 上給的的 IP 位址，接受風險並繼續
+點擊 Request pin 的按鈕
+此時 HoloLens 上會顯示 pin 碼
+將資料輸入到瀏覽器當中
+ PIN displayed on your device 頭顯顯示的 PIN 碼 New user name 使用者名稱 New password 密碼 Confirm password 重新輸入密碼  瀏覽器會提示登入，輸入剛剛設定好的資訊
+Windows 裝置入口網站順利開啟
+AppX 安裝 執行檔的結構如下</description>
+    </item>
+    
+    <item>
+      <title>HoloLens - MRTK 如何打包 AppX 安裝檔</title>
+      <link>https://raichancat.github.io/2021/hololens-appx-build/</link>
+      <pubDate>Wed, 14 Jul 2021 10:39:36 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/2021/hololens-appx-build/</guid>
+      <description>Unity 版本：2020.3.13
+MRTK 版本：2.7.2
+準備 在開始之前確保自己的 MRTK 專案有安裝「Mixed Reality Toolkit Tools」包，使用裡面的工具比較懶人方便。
+流程 打開 Mixed Reality &amp;gt; Utilities &amp;gt; Build Window 開啟編譯視窗
+檢查 Scene 已經加入了上方 Scene in Build 視窗當中
+Target Device 選擇 HoloLens
+點擊 Build Unity Project。
+編譯的檔案會被放置於 /專案資料夾/Builds/WSAPlayer 編譯完成會顯示 Build Complete 視窗，點擊 Build AppX
+編譯途中不會有任何視窗，內容都會顯示於 Console 當中。完成之後會顯示 Command Successful
+編譯完成的執行檔會放置於 /專案資料夾/Builds/WSAPlayer/AppPackages/執行檔名稱/完整執行檔名稱 底下
+檔案架構  .appx 軟體安裝檔 Dependencies 依賴  ARM64 ARM64 平台依賴  .appx 依賴安裝檔      安裝的時候需要同時安裝軟體本體的 AppX 以及依賴的 AppX 其他的檔案就不是那麼重要了。</description>
+    </item>
+    
+  </channel>
+</rss>
