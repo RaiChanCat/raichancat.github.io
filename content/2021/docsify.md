@@ -104,7 +104,7 @@ docsify serve docs
 
 <script>
 	<!-- 外掛參數1 -->,
-     <!-- 外掛參數2 -->, 
+     <!-- 外掛參數2 -->
 </script>
 <script src="<!-- 外掛1網址 -->"></script>
 <script src="<!-- 外掛2網址 -->"></script>
