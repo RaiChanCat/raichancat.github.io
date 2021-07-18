@@ -9,7 +9,21 @@
       <link>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 14 Jul 2021 11:01:00 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Jul 2021 11:36:08 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>研究！用 Docsify 來代替 GitBook 寫文件吧</title>
+      <link>https://raichancat.github.io/2021/docsify/</link>
+      <pubDate>Sun, 18 Jul 2021 11:36:08 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/2021/docsify/</guid>
+      <description>簡介 首先不免俗地來簡單介紹一下 Docsify 是什麼。 Docsify 是一個文件生產器，以線上直接解析 Markdown 的方式來呈現網頁內容。
+特色：
+ 無靜態產生的 HTML 檔（除了首頁的設定檔 HTML 以外其他都是 MD 檔） 簡單而且輕量 內建搜尋外掛 多種佈景 外掛支援 表情符號支援 IE11 支援 支援伺服器端 render  簡單來說就是一個好用的文件生產器，快速產生一個類似 GitBook 架構的網站，能掛在任何伺服器或是 GitHub Pages 之類的地方。
+安裝  先確定電腦有裝 NPM 吧，沒有的話去裝一下。 打開要存放的位置，用命令提示字元開啟這個路徑 (有裝 Windows Terminal 的話右鍵就有了，要不然就用 cd {路徑} 吧) 安裝 Docsify 至全系統  npm i docsify-cli -g 建立檔案 假設我們要將文件存放於 docs 資料夾裡面，我們就輸入指令 (至於為什麼是 docs，其實是為了 GitHub Pages 的預設目錄，能夠輕鬆地掛起來。)
+docsify init ./docs 這邊解釋一下裏頭的文件分別在幹嘛
+ index.html 進入的網頁，也是所有設定設定的地方 README.</description>
+    </item>
+    
     <item>
       <title>HoloLens - MRTK 如何安裝 AppX 安裝檔</title>
       <link>https://raichancat.github.io/2021/hololens-appx-install/</link>
