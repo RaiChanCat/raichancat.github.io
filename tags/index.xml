@@ -9,22 +9,58 @@
       <link>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 18 Jul 2021 11:36:08 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jul 2021 21:54:25 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Docsify</title>
-      <link>https://raichancat.github.io/tags/docsify/</link>
-      <pubDate>Sun, 18 Jul 2021 11:36:08 +0800</pubDate>
+      <title>iTerm2</title>
+      <link>https://raichancat.github.io/tags/iterm2/</link>
+      <pubDate>Tue, 27 Jul 2021 21:54:25 +0800</pubDate>
       
-      <guid>https://raichancat.github.io/tags/docsify/</guid>
+      <guid>https://raichancat.github.io/tags/iterm2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>macOS</title>
+      <link>https://raichancat.github.io/tags/macos/</link>
+      <pubDate>Tue, 27 Jul 2021 21:54:25 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oh My Zsh</title>
+      <link>https://raichancat.github.io/tags/oh-my-zsh/</link>
+      <pubDate>Tue, 27 Jul 2021 21:54:25 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/tags/oh-my-zsh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Powerlevel10k</title>
+      <link>https://raichancat.github.io/tags/powerlevel10k/</link>
+      <pubDate>Tue, 27 Jul 2021 21:54:25 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/tags/powerlevel10k/</guid>
       <description></description>
     </item>
     
     <item>
       <title>開發</title>
       <link>https://raichancat.github.io/tags/%E9%96%8B%E7%99%BC/</link>
-      <pubDate>Sun, 18 Jul 2021 11:36:08 +0800</pubDate>
+      <pubDate>Tue, 27 Jul 2021 21:54:25 +0800</pubDate>
       
       <guid>https://raichancat.github.io/tags/%E9%96%8B%E7%99%BC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docsify</title>
+      <link>https://raichancat.github.io/tags/docsify/</link>
+      <pubDate>Sun, 18 Jul 2021 11:36:08 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/tags/docsify/</guid>
       <description></description>
     </item>
     

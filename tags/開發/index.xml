@@ -9,7 +9,29 @@
       <link>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 18 Jul 2021 11:36:08 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/%E9%96%8B%E7%99%BC/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jul 2021 21:54:25 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/%E9%96%8B%E7%99%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>M1 Mac - 我也想要漂漂的終端機... iTerm2 &#43; Oh My Zsh &#43; Powerlevel10k 實作</title>
+      <link>https://raichancat.github.io/2021/iterm2/</link>
+      <pubDate>Tue, 27 Jul 2021 21:54:25 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/2021/iterm2/</guid>
+      <description>好久沒用 Mac 了。
+回來的第一件事情就是來把終端機弄漂亮這樣工作起來心情比較愉悅（？
+安裝 Homebrew Homebrew 是 macOS 的一個 Package Manager，我們會透過它來安裝各式各樣的軟體跟套件。
+打開終端機輸入指令
+/bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34; 他就會自動裝好了。（然後回頭一看才發現好像用不太到www 算了）
+安裝 iTerm2 其實 Mac 的 terminal 沒有那麼好用，所以大家都用第三方的 iTerm2
+由於 ARM 版的 Homebrew 沒有 cask 能用，所以沒辦法用指令安裝。
+因此我們就直接上官網抓吧
+https://iterm2.com/downloads.html
+安裝 Oh My Zsh 這個是一個 zsh 外掛，提供更細部的修正以及佈景主題功能
+由於 macOS Big Sur 已經內建 zsh 了
+所以我們就直接跳過 zsh 的安裝直接來裝 Oh My Zsh。
+sh -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&amp;#34; 安裝結束之後預設終端機會被覆蓋掉，重新啟動 iTerm2 即可
+安裝 Powerlevel10k 這個是 Oh My Zsh 的超高自訂性終極佈景主題</description>
+    </item>
+    
     <item>
       <title>研究！用 Docsify 來代替 GitBook 寫文件吧</title>
       <link>https://raichancat.github.io/2021/docsify/</link>
