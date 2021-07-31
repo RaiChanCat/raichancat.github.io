@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>軟體 on 小雷的雜記堆</title>
+    <link>https://raichancat.github.io/tags/%E8%BB%9F%E9%AB%94/</link>
+    <description>Recent content in 軟體 on 小雷的雜記堆</description>
+    <image>
+      <url>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 31 Jul 2021 14:36:17 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/%E8%BB%9F%E9%AB%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>研究！Google 表單透過網址一鍵自動填寫表單內容！</title>
+      <link>https://raichancat.github.io/2021/gform-autocomplete/</link>
+      <pubDate>Sat, 31 Jul 2021 14:36:17 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/2021/gform-autocomplete/</guid>
+      <description>原理 透過網址來預填表單，格式如下
+https://docs.google.com/forms/d/e/viewform?[表單連結]&amp;amp;[欄位1代號]=[欄位1內容]&amp;amp;&amp;amp;[欄位2代號]=[欄位2內容]&amp;hellip;
+ 表單連結點進去就會自動填入所有的項目 項目可以跨頁 跨頁的下一步還是得自己按 不管是選擇，簡答，下拉式選單，欄位內容的部分就直接填寫文字內容（或是選擇的內容）即可  欄位代號取得  打開表單，點擊 F12 開啟開發人員面板  在面板按下 command+F 或是 control + F 搜尋元素，輸入 entry.  你可以看到 action=&amp;quot;&amp;quot; 欄是表單連結 name=&amp;ldquo;entry.xxxxxxxxxx&amp;rdquo; 是欄位代號 value=&amp;ldquo;aaaa&amp;rdquo; 是欄位內容   網址建立 複製一下網址的連結，按照上面按照 原理 給的格式貼入相關的元素，拿我這份表單舉例
+https://docs.google.com/forms/d/e/viewform?[表單連結]&amp;amp;[欄位1代號]=[欄位1內容]&amp;amp;&amp;amp;[欄位2代號]=[欄位2內容]&amp;hellip;
+https://docs.google.com/forms/d/e/1FAIpQLSfN7WG27WOFUKygeLOPAMmI5N8TpsZH1hQENMGSAcGil7AGyQ/viewform?entry.1876558801=110/07/31&amp;amp;entry.1136496505=0900000000&amp;amp;entry.437250203=37.5&amp;amp;entry.836727167=A班&amp;amp;entry.1919260157=男&amp;amp;entry.1695249575=aaaa 順序其實無所謂，填完之後開新分頁打開連結
+將將！東西都自動填完了
+延伸應用 基本上有了網址之後很多事情就好辦了。
+舉個例子就是如果你要用在「捷徑」App 的話，只要在捷徑裡面撰寫程式碼，呼叫 Safari 開啟即可。 例如說我其中一個欄位想要產生在 36.5~37.5 之間的亂數，以變數的方式安插在 URL 裡面就可以了 或者是如果要分享給親朋好友用，透過 回報 的指令把一些欄位挖空即可，玩法還很多呢 www
+作完之後不免俗的放到桌面上方便之後快速呼叫多舒服www
+ 除此之外像是剛剛有取出的 action 連結甚至可以拿來當作 POST 來用，可以直接傳參數進去做到完全自動化的填表單，酷吧！</description>
+    </item>
+    
+  </channel>
+</rss>

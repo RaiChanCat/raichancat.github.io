@@ -9,7 +9,43 @@
       <link>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 27 Jul 2021 21:54:25 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Jul 2021 14:36:17 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google</title>
+      <link>https://raichancat.github.io/tags/google/</link>
+      <pubDate>Sat, 31 Jul 2021 14:36:17 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>網路</title>
+      <link>https://raichancat.github.io/tags/%E7%B6%B2%E8%B7%AF/</link>
+      <pubDate>Sat, 31 Jul 2021 14:36:17 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/tags/%E7%B6%B2%E8%B7%AF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>軟體</title>
+      <link>https://raichancat.github.io/tags/%E8%BB%9F%E9%AB%94/</link>
+      <pubDate>Sat, 31 Jul 2021 14:36:17 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/tags/%E8%BB%9F%E9%AB%94/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>開發</title>
+      <link>https://raichancat.github.io/tags/%E9%96%8B%E7%99%BC/</link>
+      <pubDate>Sat, 31 Jul 2021 14:36:17 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/tags/%E9%96%8B%E7%99%BC/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>iTerm2</title>
       <link>https://raichancat.github.io/tags/iterm2/</link>
@@ -43,15 +79,6 @@
       <pubDate>Tue, 27 Jul 2021 21:54:25 +0800</pubDate>
       
       <guid>https://raichancat.github.io/tags/powerlevel10k/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>開發</title>
-      <link>https://raichancat.github.io/tags/%E9%96%8B%E7%99%BC/</link>
-      <pubDate>Tue, 27 Jul 2021 21:54:25 +0800</pubDate>
-      
-      <guid>https://raichancat.github.io/tags/%E9%96%8B%E7%99%BC/</guid>
       <description></description>
     </item>
     
