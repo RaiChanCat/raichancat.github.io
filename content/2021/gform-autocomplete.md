@@ -45,10 +45,10 @@ https://docs.google.com/forms/d/e/**[表單連結]**/viewform?&**[欄位1代號]
    ![](https://raw.githubusercontent.com/raichancat/raichancat.github.io-images/master/img/%E6%88%AA%E5%9C%96%202021-07-31%20%E4%B8%8B%E5%8D%882.54.32.png)
 2. 在面板按下 `command`+`F` 或是 `control` + `F` 搜尋元素，輸入 `entry.`
    ![](https://raw.githubusercontent.com/raichancat/raichancat.github.io-images/master/img/%E6%88%AA%E5%9C%96%202021-07-31%20%E4%B8%8B%E5%8D%882.55.05.png)
-3. 你可以看到
-   action="" 欄是表單連結
-   name="entry.xxxxxxxxxx" 是欄位代號
-   value="aaaa" 是欄位內容
+3. 你可以看到  
+   action="" 欄是表單連結  
+   name="entry.xxxxxxxxxx" 是欄位代號  
+   value="aaaa" 是欄位內容  
    ![](https://raw.githubusercontent.com/raichancat/raichancat.github.io-images/master/img/%E6%88%AA%E5%9C%96%202021-07-31%20%E4%B8%8B%E5%8D%882.54.53.png)
 
 ## 網址建立
@@ -71,8 +71,8 @@ https://docs.google.com/forms/d/e/1FAIpQLSfN7WG27WOFUKygeLOPAMmI5N8TpsZH1hQENMGS
 
 基本上有了網址之後很多事情就好辦了。
 
-舉個例子就是如果你要用在「捷徑」App 的話，只要在捷徑裡面撰寫程式碼，呼叫 Safari 開啟即可。
-例如說我其中一個欄位想要產生在 36.5~37.5 之間的亂數，以變數的方式安插在 URL 裡面就可以了
+舉個例子就是如果你要用在「捷徑」App 的話，只要在捷徑裡面撰寫程式碼，呼叫 Safari 開啟即可。  
+例如說我其中一個欄位想要產生在 36.5~37.5 之間的亂數，以變數的方式安插在 URL 裡面就可以了  
 或者是如果要分享給親朋好友用，透過 回報 的指令把一些欄位挖空即可，玩法還很多呢 www
 
 ![](https://raw.githubusercontent.com/raichancat/raichancat.github.io-images/master/img/IMG_08456.PNG)
