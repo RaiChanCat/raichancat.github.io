@@ -55,9 +55,9 @@ _build:
 
 # 設定
 
-![](https://raw.githubusercontent.com/raichancat/raichancat.github.io-images/master/img/IMG_0771.png)
+![](https://raw.githubusercontent.com/raichancat/raichancat.github.io-images/master/img/%E8%A8%AD%E5%AE%9A%E5%9C%96%E5%A7%94%E8%A8%97%20(1).png)
 
-感謝 [**小狼奇克**](https://www.facebook.com/wolfyChiku/) 幫忙把設定兜出來喵（感動到流淚）
+感謝 [米昂](https://www.facebook.com/miion6514) 繪製我的 2.0 設定（感動）
 
 **種族**：長相奇特的家貓  
 **名字**：小雷  
@@ -95,6 +95,11 @@ _build:
 
 ![](https://raw.githubusercontent.com/raichancat/raichancat.github.io-images/master/img/20210524.png)
 
+繪師：[**奇克**](https://www.facebook.com/wolfyChiku)
+
+![](https://raw.githubusercontent.com/raichancat/raichancat.github.io-images/master/img/IMG_0771.png)
+
+**1.0 設定**
 繪師：[**奇克**](https://www.facebook.com/wolfyChiku)
 
 如果想要看看更多可以看看 [**我的置頂**](https://www.facebook.com/RaiChanCat/posts/233070491960759)（不過剩下的應該都是一些我自己做的東西了？）
