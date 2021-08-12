@@ -9,7 +9,29 @@
       <link>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 31 Jul 2021 14:36:17 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Aug 2021 22:33:48 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>M1 MacBook Air (2020) 開箱，來聊一下這個被吹上天的電腦</title>
+      <link>https://raichancat.github.io/2021/m1-mba/</link>
+      <pubDate>Thu, 12 Aug 2021 22:33:48 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/2021/m1-mba/</guid>
+      <description>來簡單聊一下這個電腦。
+我只能說經由三級警戒的催化，整天窩在家裡的我終於把一些時間還給自己，所以就可以做一些有的沒的事，然後整個消費就起飛。最近就是想說畢業之後就再也沒有機會用教育價買東西了所以就趁這個機會入手已經渴望很久的 M1 Mac 了&amp;hellip;
+這次購買的是 MacBook Air
+這次想說 AirPods 升 Pro 也才 2000 出頭我就加了，加上我對蘋果硬體品質的信心趨近於 0 所以我兩台也都加保了 Apple Care
+ ＭacBook Air Apple Care 教育價：$4792 AirPods Pro 教育價：$1000  反正最後一定就莫非定理，不買 Care 就一堆問題，買了 Care 之後沒問題，可能是價值五千塊的綠色乖乖（？
+老風格的盒子
+映入眼簾的電腦
+盒裝內有一盒說明書、 30W 的 USB-C 充電器，以及一條 USB-C 公對公充電線
+說實在的&amp;hellip; 一看到只有 30W 真的有嚇到&amp;hellip; 但是好懷念像以前有收線的設計唉&amp;hellip;
+說明書盒裡面有貼紙，跟兩張 paper
+一打開螢幕就 咚～～ 的一聲就開機了，就簡單做做設定進到桌面
+最後一張近照，這才發現原來蘋果又更動了鍵盤的印刷，其實實際上跟 MBP 一樣同樣是剪刀腳但是打起來還是不太一樣，比較接近 Magic Keyboard 2 那種短鍵程的手感，但是打起來不會像蝴蝶腳一樣很有回饋感，覺得是個好鍵盤啦！
+真實 首先要強調的一件事情就是這台電腦終究是一台三萬塊有找的電腦，只是單純這台「史上效能最低」的 M1 Mac 給的很多，賦予他某種層面一些兩倍價格電腦的使用體驗。
+M1 基本上日常所有事情都不太會有什麼障礙，帳面數字以及跑分看起來很漂亮，實際上在進行日常工作的時候不會特別的有什麼超有感提升的狀況，頂多在算圖或是編譯之類的重負載才比較能體現那個速度。而雖然每一台 Ｍ1 Mac 都用同一顆處理器但因為散熱的結構而讓他有效能上的差異，但實際上彼此之間效能差異大概就是在輸出能快個幾秒鐘的程度，對「會需要三萬元等級筆電」的人而言我覺得不是一個考慮的點。</description>
+    </item>
+    
     <item>
       <title>研究！Google 表單透過網址一鍵自動填寫表單內容！</title>
       <link>https://raichancat.github.io/2021/gform-autocomplete/</link>

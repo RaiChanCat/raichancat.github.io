@@ -9,7 +9,52 @@
       <link>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 31 Jul 2021 14:36:17 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Aug 2021 22:33:48 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mac</title>
+      <link>https://raichancat.github.io/tags/mac/</link>
+      <pubDate>Thu, 12 Aug 2021 22:33:48 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MacBook</title>
+      <link>https://raichancat.github.io/tags/macbook/</link>
+      <pubDate>Thu, 12 Aug 2021 22:33:48 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/tags/macbook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>macOS</title>
+      <link>https://raichancat.github.io/tags/macos/</link>
+      <pubDate>Thu, 12 Aug 2021 22:33:48 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>開箱</title>
+      <link>https://raichancat.github.io/tags/%E9%96%8B%E7%AE%B1/</link>
+      <pubDate>Thu, 12 Aug 2021 22:33:48 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/tags/%E9%96%8B%E7%AE%B1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>電腦</title>
+      <link>https://raichancat.github.io/tags/%E9%9B%BB%E8%85%A6/</link>
+      <pubDate>Thu, 12 Aug 2021 22:33:48 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/tags/%E9%9B%BB%E8%85%A6/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Google</title>
       <link>https://raichancat.github.io/tags/google/</link>
@@ -52,15 +97,6 @@
       <pubDate>Tue, 27 Jul 2021 21:54:25 +0800</pubDate>
       
       <guid>https://raichancat.github.io/tags/iterm2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>macOS</title>
-      <link>https://raichancat.github.io/tags/macos/</link>
-      <pubDate>Tue, 27 Jul 2021 21:54:25 +0800</pubDate>
-      
-      <guid>https://raichancat.github.io/tags/macos/</guid>
       <description></description>
     </item>
     
