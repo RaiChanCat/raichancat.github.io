@@ -9,7 +9,25 @@
       <link>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 14 Aug 2021 13:56:46 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/%E5%91%A8%E9%82%8A/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Aug 2021 19:58:30 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/%E5%91%A8%E9%82%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>開箱！Orico M.2 NVMe SSD 外接盒 (M2PV-C3) - 自己做個外接 SSD 吧！</title>
+      <link>https://raichancat.github.io/2021/orico-m2/</link>
+      <pubDate>Tue, 17 Aug 2021 19:58:30 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/2021/orico-m2/</guid>
+      <description>買了新的 MacBook 附帶的開箱 Part 3，應該是最後一篇了&amp;hellip; 吧？
+之前有說要解決掉 MacBook 笑死人的 256GB 容量的最佳解就是外接一個 SSD 來用，成本極低而且速度對於大部分的使用情境來說也夠了。
+於是我的策略就是我手邊剛好有一顆 M.2 PCIe SSD，於是我就買個 dirty cheap 的四百塊外接盒來用，來看看這樣用起來如何。
+話不多說，這邊就直接進入開箱
+開箱 外盒，這個是標準版，NVMe 版本的。同樣外觀也有 NGFF 適用的，也有所謂「四倍散熱版」的東東，我是覺得就看預算吧，我這個扣一扣折扣大概三百六。
+背後有寫詳細規格，大概如下：
+ 型號：M2PV-C3 接口：USB 3.1 Gen2 Type-C 硬碟：M.2 MVMe 速度：10Gbps  要注意的一點是 M1 MacBook Air USB 速度上限就是 10Gbps（而且還很該死的跑不滿），你買了 20Gbps 的版本也沒用就是了。
+硬碟選購上其實也不用硬攻頂，因為 10Gbps 的上限也才讀寫 1000MB 而已，在這個 SSD 隨便都破三千 MB 的年代這個確實很可笑。
+至於 SATA SSD 值不值得考慮，目前我看的結果是選 SATA 沒有多少價格上的優勢，那這樣讀寫只有 500MB 我覺得不太划算。所以就不太建議省這個錢了。
+盒裝配件，簡易說明、USB C 對 A 的線、USB C 對 C 的線、和小小配件包（包含螺絲、螺絲起子、導熱墊和SSD固定卡榫）</description>
+    </item>
+    
     <item>
       <title>開箱！OWC USB-C Travel Dock E - 拯救 MacBook 的慘烈 IO</title>
       <link>https://raichancat.github.io/2021/owc-usb-dock-e/</link>
