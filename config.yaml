@@ -15,8 +15,8 @@ minify:
     disableXML: true
     minifyOutput: true
 
-# permalinks:
-#     posts: /posts/:year/:title/
+permalinks:
+    posts: /:year/:filename/
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
