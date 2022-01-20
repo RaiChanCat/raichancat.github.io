@@ -9,7 +9,24 @@
       <link>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 14 Jul 2021 11:01:00 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Jan 2022 22:07:51 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>來聊 Unity WebGL build</title>
+      <link>https://raichancat.github.io/2022/unity-webgl/</link>
+      <pubDate>Thu, 20 Jan 2022 22:07:51 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/2022/unity-webgl/</guid>
+      <description>目前版本 Unity 2021.2.7f
+疫情的發生讓時間變得好快，於是我就這樣休息了半年。
+WebGL 真的必須要說這是我接觸 Unity 五年多以來讓我覺得最靠北的一個東西，不成熟不穩定毛一堆做得我OO叫的，我一定要分享出來讓大家知道拿 Unity 做 WebGL 專案是需要被謹慎評估的。
+題外話就是這邊不討論 ECS 跟 Project Tiny 的東西，嗯。
+講一些能做到跟不能做到的事情 在硬體規格允許的前提下，確實能 Load 一個不小規模的場景或是高面數模型。 其實只要記憶體跟顯示卡允許，跑場景不會有什麼太大問題。在完全沒有多做設定的狀態下高刷新率螢幕的支援也是沒有問題。(雖然通常會因為效能所以刻意關到 30fps) 唯一我覺得差異比較大的是反鋸齒跟 Shader 算出來的效果真的落差很大，如果是要展示一些擬真效果的物件或場景會顯得比較尷尬。
+在 PC 的環境下大多數時候能夠提供一定的效能。 啊你要跑大場景用內顯的話那還真的無解，可能要考慮一下 TA 吧。
+大多數狀況下能夠在 Unity 實現的東西都能在 WebGL 被實現。 絕大多數的 Plugin 都能無痛在 WebGL 底下工作，不過由於 WebGL 的環境某種程度上比行動裝置來得嚴苛，所以其實在特效，或是整體的內容規模設計是需要被評估的。
+手機沒有被官方支援，所以編出來在手機上跑起來很不理想這件事是可以被預估的。 Unity WebGL 的記憶體管理或是硬體的優化都是針對電腦來實作的，所以在手機端很常會遇到 OO 功能罷工不 work，被瀏覽器 block 掉，記憶體原地爆炸之類的其實都是日常。
+Unity WebGL 沒有 WebXR 支援，儘管有人做 plugin 來做相容。 https://github.com/De-Panther/unity-webxr-export 跟本文無關但是題外話，如果要做 WebAR 還是選擇像是 8th Wall 的商業解案要不然就乖乖學 three.js 吧，拿 Unity 做這個光是那個 WebGL build 出來的基本盤大小應該就直接勸退了。</description>
+    </item>
+    
     <item>
       <title>HoloLens - MRTK 如何安裝 AppX 安裝檔</title>
       <link>https://raichancat.github.io/2021/hololens-appx-install/</link>

@@ -18,7 +18,7 @@
 <link rel=mask-icon href=https://raichancat.github.io/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.87.0">
+<meta name=generator content="Hugo 0.92.0">
 <link rel=alternate type=application/rss+xml href=https://raichancat.github.io/index.xml>
 <link rel=alternate type=application/json href=https://raichancat.github.io/index.json>
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-200609247-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="小雷的雜記堆">
@@ -92,6 +92,24 @@
 </a>
 </div>
 </footer>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>來聊 Unity WebGL build</h2>
+</header>
+<section class=entry-content>
+<p>目前版本 Unity 2021.2.7f
+疫情的發生讓時間變得好快，於是我就這樣休息了半年。
+WebGL 真的必須要說這是我接觸 Unity 五年多以來讓我覺得最靠北的一個東西，不成熟不穩定毛一堆做得我OO叫的，我一定要分享出來讓大家知道拿 Unity 做 WebGL 專案是需要被謹慎評估的。
+題外話就是這邊不討論 ECS 跟 Project Tiny 的東西，嗯。
+講一些能做到跟不能做到的事情 在硬體規格允許的前提下，確實能 Load 一個不小規模的場景或是高面數模型。 其實只要記憶體跟顯示卡允許，跑場景不會有什麼太大問題。在完全沒有多做設定的狀態下高刷新率螢幕的支援也是沒有問題。(雖然通常會因為效能所以刻意關到 30fps) 唯一我覺得差異比較大的是反鋸齒跟 Shader 算出來的效果真的落差很大，如果是要展示一些擬真效果的物件或場景會顯得比較尷尬。
+在 PC 的環境下大多數時候能夠提供一定的效能。 啊你要跑大場景用內顯的話那還真的無解，可能要考慮一下 TA 吧。
+大多數狀況下能夠在 Unity 實現的東西都能在 WebGL 被實現。 絕大多數的 Plugin 都能無痛在 WebGL 底下工作，不過由於 WebGL 的環境某種程度上比行動裝置來得嚴苛，所以其實在特效，或是整體的內容規模設計是需要被評估的。
+手機沒有被官方支援，所以編出來在手機上跑起來很不理想這件事是可以被預估的。 Unity WebGL 的記憶體管理或是硬體的優化都是針對電腦來實作的，所以在手機端很常會遇到 OO 功能罷工不 work，被瀏覽器 block 掉，記憶體原地爆炸之類的其實都是日常。
+Unity WebGL 沒有 WebXR 支援，儘管有人做 plugin 來做相容。 https://github.com/De-Panther/unity-webxr-export 跟本文無關但是題外話，如果要做 WebAR 還是選擇像是 8th Wall 的商業解案要不然就乖乖學 three.js 吧，拿 Unity 做這個光是那個 WebGL build 出來的基本盤大小應該就直接勸退了。...</p>
+</section>
+<footer class=entry-footer>January 20, 2022&nbsp;·&nbsp;2 分鐘&nbsp;·&nbsp;小雷</footer>
+<a class=entry-link aria-label="post link to 來聊 Unity WebGL build" href=https://raichancat.github.io/2022/unity-webgl/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
@@ -182,29 +200,6 @@ https://docs.google.com/forms/d/e/1FAIpQLSfN7WG27WOFUKygeLOPAMmI5N8TpsZH1hQENMGS
 <footer class=entry-footer>July 31, 2021&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;小雷</footer>
 <a class=entry-link aria-label="post link to 研究！Google 表單透過網址一鍵自動填寫表單內容！" href=https://raichancat.github.io/2021/gform-autocomplete/></a>
 </article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>M1 Mac - 我也想要漂漂的終端機... iTerm2 + Oh My Zsh + Powerlevel10k 實作</h2>
-</header>
-<section class=entry-content>
-<p>好久沒用 Mac 了。
-回來的第一件事情就是來把終端機弄漂亮這樣工作起來心情比較愉悅（？
-安裝 Homebrew Homebrew 是 macOS 的一個 Package Manager，我們會透過它來安裝各式各樣的軟體跟套件。
-打開終端機輸入指令
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" 他就會自動裝好了。（然後回頭一看才發現好像用不太到www 算了）
-安裝 iTerm2 其實 Mac 的 terminal 沒有那麼好用，所以大家都用第三方的 iTerm2
-由於 ARM 版的 Homebrew 沒有 cask 能用，所以沒辦法用指令安裝。
-因此我們就直接上官網抓吧
-https://iterm2.com/downloads.html
-安裝 Oh My Zsh 這個是一個 zsh 外掛，提供更細部的修正以及佈景主題功能
-由於 macOS Big Sur 已經內建 zsh 了
-所以我們就直接跳過 zsh 的安裝直接來裝 Oh My Zsh。
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 安裝結束之後預設終端機會被覆蓋掉，重新啟動 iTerm2 即可
-安裝 Powerlevel10k 這個是 Oh My Zsh 的超高自訂性終極佈景主題...</p>
-</section>
-<footer class=entry-footer>July 27, 2021&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;小雷</footer>
-<a class=entry-link aria-label="post link to M1 Mac - 我也想要漂漂的終端機... iTerm2 + Oh My Zsh + Powerlevel10k 實作" href=https://raichancat.github.io/2021/iterm2/></a>
-</article>
 <footer class=page-footer>
 <nav class=pagination>
 <a class=next href=https://raichancat.github.io/page/2/>下一頁 »</a>
@@ -212,7 +207,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 </footer>
 </main>
 <footer class=footer>
-<span>&copy; 2021 <a href=https://raichancat.github.io/>小雷的雜記堆</a></span>
+<span>&copy; 2022 <a href=https://raichancat.github.io/>小雷的雜記堆</a></span>
 <span>
 Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &

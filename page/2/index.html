@@ -18,7 +18,7 @@
 <link rel=mask-icon href=https://raichancat.github.io/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.87.0">
+<meta name=generator content="Hugo 0.92.0">
 <link rel=alternate type=application/rss+xml href=https://raichancat.github.io/index.xml>
 <link rel=alternate type=application/json href=https://raichancat.github.io/index.json>
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-200609247-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="小雷的雜記堆">
@@ -72,6 +72,29 @@
 </nav>
 </header>
 <main class=main>
+<article class=post-entry>
+<header class=entry-header>
+<h2>M1 Mac - 我也想要漂漂的終端機... iTerm2 + Oh My Zsh + Powerlevel10k 實作</h2>
+</header>
+<section class=entry-content>
+<p>好久沒用 Mac 了。
+回來的第一件事情就是來把終端機弄漂亮這樣工作起來心情比較愉悅（？
+安裝 Homebrew Homebrew 是 macOS 的一個 Package Manager，我們會透過它來安裝各式各樣的軟體跟套件。
+打開終端機輸入指令
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" 他就會自動裝好了。（然後回頭一看才發現好像用不太到www 算了）
+安裝 iTerm2 其實 Mac 的 terminal 沒有那麼好用，所以大家都用第三方的 iTerm2
+由於 ARM 版的 Homebrew 沒有 cask 能用，所以沒辦法用指令安裝。
+因此我們就直接上官網抓吧
+https://iterm2.com/downloads.html
+安裝 Oh My Zsh 這個是一個 zsh 外掛，提供更細部的修正以及佈景主題功能
+由於 macOS Big Sur 已經內建 zsh 了
+所以我們就直接跳過 zsh 的安裝直接來裝 Oh My Zsh。
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 安裝結束之後預設終端機會被覆蓋掉，重新啟動 iTerm2 即可
+安裝 Powerlevel10k 這個是 Oh My Zsh 的超高自訂性終極佈景主題...</p>
+</section>
+<footer class=entry-footer>July 27, 2021&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;小雷</footer>
+<a class=entry-link aria-label="post link to M1 Mac - 我也想要漂漂的終端機... iTerm2 + Oh My Zsh + Powerlevel10k 實作" href=https://raichancat.github.io/2021/iterm2/></a>
+</article>
 <article class=post-entry>
 <header class=entry-header>
 <h2>研究！用 Docsify 來代替 GitBook 寫文件吧</h2>
@@ -164,37 +187,6 @@ Pros
 <footer class=entry-footer>July 6, 2021&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;小雷</footer>
 <a class=entry-link aria-label="post link to 窮人的廠製 SDVX 手台？炫步 GENBU SDVX 手台開箱" href=https://raichancat.github.io/2021/genbu-sdvx/></a>
 </article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>開箱！Quest 2 Halo Strap - CP 值不錯高的廉價副廠頭戴</h2>
-</header>
-<section class=entry-content>
-<p>Quest 2 是市面上最值得買的 VR 頭顯，句點。
-看朋友悶在家裡陸續跳坑買 Quest 2 玩 VR Chat 就覺得好開心喔（雖然不是跟我玩）
-但是我覺得 Quest 2 什麼都好，就是那個配戴感因為 Costdown 的關係真的很差（就像是耳機裡面的 GRADO 吧，很好聽但是很難戴）有些時候難免就會覺得 Facebook 根本就是刻意把頭戴做得很爛逼著大家加價購那個一千四，而且有斷掉前科以及舒適度普普的菁英頭戴唉。
-後來就在 reddit 看到有人在推薦那個被稱作 Halo Strap 的中國製廉價頭戴，比原廠的好戴而且價格只有一半，我就好奇的上了淘寶買了一個（其實這東西沒有牌子所以每一家賣的應該都是同一個東西）就來簡單開箱看一下吧…
-開箱 雖然沒打廣告的意思，我是在這邊買的
-Oculus quest2精英头戴vr畅听舒适可调节不压脸头带人体工学quest2减压战斗头戴收纳包配件替换
-這次買的是一個頭戴跟一個收納盒，一收到打開箱子居然是赤裸裸沒包裝的收納盒在裏面有點嚇到www 這樣包裝真的沒問題嗎?
-打開箱子後就會看到頭戴的盒子在裡面
-盒子裡面就包含了簡易的說明書以及頭戴本身 （很意外的是裡面的教學影片居然是 YouTube 連結，啊你們在牆內是….?）
-OK，拿出來跟我的 Quest 擺在一起
-其實整個材質跟做工感覺有點廉價，不過那個旋轉起來的阻力覺得某種層面也算耐用？
-這邊來一個角度。
-舊的頭戴邊緣拆掉之後，新的居然是沒有任何機械結構搭配泡棉墊直接卡上那根板子，雖然感覺很不可靠但是其實意外的滿緊的，整個還算牢固整個還算牢固。
-我買的這個是新版有加大頭墊的款式，想說既然都買了不如一次攻上去吧。
-後面就是鬆緊旋鈕的部分，聲音意外的超級大聲，不過實際上意外的滿牢固的。
-最後就是來一個側面，前面的頭顯可以直接折上去可以快速地看外面的世界。整個頭戴跟頭可說是非常合，而且眼罩的部分可以平均的壓在臉上，長時間也不會疼痛。
-折起來大概可以這樣子。
-我自己的習慣是會先折成這樣，然後把眼鏡塞進去，再把頭戴上去，把頭戴折下來鎖緊這樣。整體流程還算滿直覺得，不禁會覺得喔天啊，之前的那個鬆緊帶真的是惡夢…
-OK，所以開箱就小小的到這邊
-基本上我就在這邊簡單的做一個小評
-那個看起來跟用起來的感覺的確不太像是一個 765 元的玩意 舒適度的確有極大幅的提升，已經回不去了 眼罩的部分能確實平均的壓在臉上 轉頭頭顯會比較穩定，不會被甩出去的感覺 眼鏡搭配這個頭戴之後會被卡住，眼鏡就不會在裡面滾來滾去，失焦，或是刮傷裡面的鏡片了 我覺得對於一個幾百塊的頭戴來說我覺得夠了，至少我平常玩 Beatsaber 或是其他遊戲的體驗真的有大幅提升，感覺還不賴… 這個我覺得是能推薦給大家拉，只是不推薦在台灣的拍賣買就是了（真的神扯貴）
-不過跟那個究極方案（Quest 2 轉接 HTC Vive Deluxe 頭戴）比起來，舒適度、做工以及便利性還是差了一截就是了，預算有夠，而且有能力搞到一台那個頭戴的話我覺得比較值得。（但是那個是3500+的玩意唉，一個能買這個5台)...</p>
-</section>
-<footer class=entry-footer>June 30, 2021&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;小雷</footer>
-<a class=entry-link aria-label="post link to 開箱！Quest 2 Halo Strap	- CP 值不錯高的廉價副廠頭戴" href=https://raichancat.github.io/2021/quest2-halo-strap/></a>
-</article>
 <footer class=page-footer>
 <nav class=pagination>
 <a class=prev href=https://raichancat.github.io/>« 上一頁</a>
@@ -203,7 +195,7 @@ OK，所以開箱就小小的到這邊
 </footer>
 </main>
 <footer class=footer>
-<span>&copy; 2021 <a href=https://raichancat.github.io/>小雷的雜記堆</a></span>
+<span>&copy; 2022 <a href=https://raichancat.github.io/>小雷的雜記堆</a></span>
 <span>
 Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &

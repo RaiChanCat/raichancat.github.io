@@ -9,7 +9,43 @@
       <link>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 17 Aug 2021 19:58:30 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Jan 2022 22:07:51 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unity</title>
+      <link>https://raichancat.github.io/tags/unity/</link>
+      <pubDate>Thu, 20 Jan 2022 22:07:51 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/tags/unity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WebGL</title>
+      <link>https://raichancat.github.io/tags/webgl/</link>
+      <pubDate>Thu, 20 Jan 2022 22:07:51 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/tags/webgl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>遊戲</title>
+      <link>https://raichancat.github.io/tags/%E9%81%8A%E6%88%B2/</link>
+      <pubDate>Thu, 20 Jan 2022 22:07:51 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/tags/%E9%81%8A%E6%88%B2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>開發</title>
+      <link>https://raichancat.github.io/tags/%E9%96%8B%E7%99%BC/</link>
+      <pubDate>Thu, 20 Jan 2022 22:07:51 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/tags/%E9%96%8B%E7%99%BC/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>周邊</title>
       <link>https://raichancat.github.io/tags/%E5%91%A8%E9%82%8A/</link>
@@ -101,15 +137,6 @@
     </item>
     
     <item>
-      <title>開發</title>
-      <link>https://raichancat.github.io/tags/%E9%96%8B%E7%99%BC/</link>
-      <pubDate>Sat, 31 Jul 2021 14:36:17 +0800</pubDate>
-      
-      <guid>https://raichancat.github.io/tags/%E9%96%8B%E7%99%BC/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>iTerm2</title>
       <link>https://raichancat.github.io/tags/iterm2/</link>
       <pubDate>Tue, 27 Jul 2021 21:54:25 +0800</pubDate>
@@ -164,15 +191,6 @@
     </item>
     
     <item>
-      <title>Unity</title>
-      <link>https://raichancat.github.io/tags/unity/</link>
-      <pubDate>Wed, 14 Jul 2021 11:01:00 +0800</pubDate>
-      
-      <guid>https://raichancat.github.io/tags/unity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Sound Voltex</title>
       <link>https://raichancat.github.io/tags/sound-voltex/</link>
       <pubDate>Tue, 06 Jul 2021 22:39:14 +0800</pubDate>
@@ -205,15 +223,6 @@
       <pubDate>Wed, 30 Jun 2021 23:40:38 +0800</pubDate>
       
       <guid>https://raichancat.github.io/tags/vr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>遊戲</title>
-      <link>https://raichancat.github.io/tags/%E9%81%8A%E6%88%B2/</link>
-      <pubDate>Wed, 30 Jun 2021 23:40:38 +0800</pubDate>
-      
-      <guid>https://raichancat.github.io/tags/%E9%81%8A%E6%88%B2/</guid>
       <description></description>
     </item>
     

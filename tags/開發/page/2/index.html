@@ -18,7 +18,7 @@
 <link rel=mask-icon href=https://raichancat.github.io/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.87.0">
+<meta name=generator content="Hugo 0.92.0">
 <link rel=alternate type=application/rss+xml href=https://raichancat.github.io/tags/%E9%96%8B%E7%99%BC/index.xml>
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-200609247-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="開發">
 <meta property="og:description" content="拿來丟一些有的沒的東西的地方">
@@ -75,6 +75,26 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>HoloLens - MRTK 如何打包 AppX 安裝檔</h2>
+</header>
+<section class=entry-content>
+<p>Unity 版本：2020.3.13
+MRTK 版本：2.7.2
+準備 在開始之前確保自己的 MRTK 專案有安裝「Mixed Reality Toolkit Tools」包，使用裡面的工具比較懶人方便。
+流程 打開 Mixed Reality > Utilities > Build Window 開啟編譯視窗
+檢查 Scene 已經加入了上方 Scene in Build 視窗當中
+Target Device 選擇 HoloLens
+點擊 Build Unity Project。
+編譯的檔案會被放置於 /專案資料夾/Builds/WSAPlayer 編譯完成會顯示 Build Complete 視窗，點擊 Build AppX
+編譯途中不會有任何視窗，內容都會顯示於 Console 當中。完成之後會顯示 Command Successful
+編譯完成的執行檔會放置於 /專案資料夾/Builds/WSAPlayer/AppPackages/執行檔名稱/完整執行檔名稱 底下
+檔案架構 .appx 軟體安裝檔 Dependencies 依賴 ARM64 ARM64 平台依賴 .appx 依賴安裝檔 安裝的時候需要同時安裝軟體本體的 AppX 以及依賴的 AppX 其他的檔案就不是那麼重要了。</p>
+</section>
+<footer class=entry-footer>July 14, 2021&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;小雷</footer>
+<a class=entry-link aria-label="post link to HoloLens - MRTK 如何打包 AppX 安裝檔" href=https://raichancat.github.io/2021/hololens-appx-build/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>研究！Unreal Engine 4 Dump 遊戲素材</h2>
 </header>
 <section class=entry-content>
@@ -94,7 +114,7 @@
 </footer>
 </main>
 <footer class=footer>
-<span>&copy; 2021 <a href=https://raichancat.github.io/>小雷的雜記堆</a></span>
+<span>&copy; 2022 <a href=https://raichancat.github.io/>小雷的雜記堆</a></span>
 <span>
 Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
