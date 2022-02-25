@@ -23,7 +23,7 @@
 <link rel=mask-icon href=https://raichancat.github.io/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.92.0">
+<meta name=generator content="Hugo 0.92.2">
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-200609247-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="研究！Unreal Engine 4 Dump 遊戲素材">
 <meta property="og:description" content="不要拿來做一些奇怪的事，OK？
 拆包的一些基本常識  UE4 的素材裝在遊戲目錄底下的 Content/Paks 裡面的 Pak 檔，檔名上面會註明平台 -WindowsNoEditor 或是 -AndroidASTC 之類的 UE4 的執行檔放在 Binaries 裡面，像 Windows 會存放在 Binaries\Win64 裡面，通常檔名會帶有 -Win64-Shipping.exe  簡易的流程  絕大多數的 UE4 遊戲會將 pak 加密，因此我們要從遊戲運行當中擷取 AES 的金鑰。 透過專門的解包的工具將東西取出 透過能讀取 uassets 的工具來檢視裡面的內容  流程 AES 金鑰尋找   準備好 pak 檔案以及遊戲 exe 執行檔
