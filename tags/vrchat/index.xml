@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>VRChat on 小雷的雜記堆</title>
+    <link>https://raichancat.github.io/tags/vrchat/</link>
+    <description>Recent content in VRChat on 小雷的雜記堆</description>
+    <image>
+      <url>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 29 Aug 2022 00:57:21 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/vrchat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>嘗試在 Linux 上面玩 VR -&gt; VRChat 篇</title>
+      <link>https://raichancat.github.io/2022/linux-vr-vrchat/</link>
+      <pubDate>Mon, 29 Aug 2022 00:57:21 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/2022/linux-vr-vrchat/</guid>
+      <description>環境 Intel Core i9 12900 NVidia GeForce RTX 3080 32GB DDR4-3200 Fedora Workstation 36 Valve Index 前言 以前還持有 Quest 2 的時候有看到有人說 Linux 底下玩 VR 軟體的部分只有 Index 比較適合而已，所以最近實際到手之後想要來試試看實際用起來的感覺。順便用用看最近大家滿推的新 Fedora&amp;hellip;
+軟體相容性包含幾個面向，這邊不廢話直接來測試一下&amp;hellip;
+測試一下 前置作業，我這邊把 Fedora 給裝起來 https://getfedora.org/en/workstation/download/
+裝好之後這邊做一些前置作業，把環境搭起來
+dnf 設定調整一下 sudo gnome-text-editor /etc/dnf/dnf.conf 後面追加 fastestmirror=True deltarpm=True max_parallel_downloads=10 系統更新 sudo dnf update 把 RPM-Fusion 裝起來，Free 跟 Non-Free 都要 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm 把 FlatHub 裝起來 sudo dnf install https://download1.</description>
+    </item>
+    
+  </channel>
+</rss>

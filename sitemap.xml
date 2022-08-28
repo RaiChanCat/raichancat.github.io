@@ -4,21 +4,77 @@
   
   <url>
     <loc>https://raichancat.github.io/categories/</loc>
-    <lastmod>2022-01-20T22:07:51+08:00</lastmod>
+    <lastmod>2022-08-29T00:57:21+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://raichancat.github.io/tags/fedora/</loc>
+    <lastmod>2022-08-29T00:57:21+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://raichancat.github.io/tags/linux/</loc>
+    <lastmod>2022-08-29T00:57:21+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://raichancat.github.io/posts/</loc>
-    <lastmod>2022-01-20T22:07:51+08:00</lastmod>
+    <lastmod>2022-08-29T00:57:21+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://raichancat.github.io/tags/</loc>
-    <lastmod>2022-01-20T22:07:51+08:00</lastmod>
+    <lastmod>2022-08-29T00:57:21+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://raichancat.github.io/tags/valve-index/</loc>
+    <lastmod>2022-08-29T00:57:21+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://raichancat.github.io/tags/vr/</loc>
+    <lastmod>2022-08-29T00:57:21+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://raichancat.github.io/tags/vrchat/</loc>
+    <lastmod>2022-08-29T00:57:21+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://raichancat.github.io/</loc>
+    <lastmod>2022-08-29T00:57:21+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://raichancat.github.io/categories/%E9%96%8B%E7%99%BC/</loc>
+    <lastmod>2022-08-29T00:57:21+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://raichancat.github.io/2022/linux-vr-vrchat/</loc>
+    <lastmod>2022-08-29T00:57:21+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -45,20 +101,6 @@
   </url>
   
   <url>
-    <loc>https://raichancat.github.io/</loc>
-    <lastmod>2022-01-20T22:07:51+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://raichancat.github.io/tags/%E9%81%8A%E6%88%B2/</loc>
-    <lastmod>2022-01-20T22:07:51+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://raichancat.github.io/tags/%E9%96%8B%E7%99%BC/</loc>
     <lastmod>2022-01-20T22:07:51+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -66,7 +108,7 @@
   </url>
   
   <url>
-    <loc>https://raichancat.github.io/categories/%E9%96%8B%E7%99%BC/</loc>
+    <loc>https://raichancat.github.io/tags/%E9%81%8A%E6%88%B2/</loc>
     <lastmod>2022-01-20T22:07:51+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -164,13 +206,6 @@
   </url>
   
   <url>
-    <loc>https://raichancat.github.io/tags/%E7%B6%B2%E8%B7%AF/</loc>
-    <lastmod>2021-07-31T14:36:17+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://raichancat.github.io/tags/%E8%BB%9F%E9%AB%94/</loc>
     <lastmod>2021-07-31T14:36:17+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -179,6 +214,13 @@
   
   <url>
     <loc>https://raichancat.github.io/categories/%E8%BB%9F%E9%AB%94/</loc>
+    <lastmod>2021-07-31T14:36:17+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://raichancat.github.io/tags/%E7%B6%B2%E8%B7%AF/</loc>
     <lastmod>2021-07-31T14:36:17+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -269,13 +311,6 @@
   </url>
   
   <url>
-    <loc>https://raichancat.github.io/2021/genbu-sdvx/</loc>
-    <lastmod>2021-07-06T22:39:14+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://raichancat.github.io/categories/%E9%81%8A%E6%88%B2/</loc>
     <lastmod>2021-07-06T22:39:14+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -283,14 +318,14 @@
   </url>
   
   <url>
-    <loc>https://raichancat.github.io/tags/quest-2/</loc>
-    <lastmod>2021-06-30T23:40:38+08:00</lastmod>
+    <loc>https://raichancat.github.io/2021/genbu-sdvx/</loc>
+    <lastmod>2021-07-06T22:39:14+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://raichancat.github.io/tags/vr/</loc>
+    <loc>https://raichancat.github.io/tags/quest-2/</loc>
     <lastmod>2021-06-30T23:40:38+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

@@ -9,7 +9,20 @@
       <link>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 30 Jun 2021 23:40:38 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/vr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Aug 2022 00:57:21 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/tags/vr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>嘗試在 Linux 上面玩 VR -&gt; VRChat 篇</title>
+      <link>https://raichancat.github.io/2022/linux-vr-vrchat/</link>
+      <pubDate>Mon, 29 Aug 2022 00:57:21 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/2022/linux-vr-vrchat/</guid>
+      <description>環境 Intel Core i9 12900 NVidia GeForce RTX 3080 32GB DDR4-3200 Fedora Workstation 36 Valve Index 前言 以前還持有 Quest 2 的時候有看到有人說 Linux 底下玩 VR 軟體的部分只有 Index 比較適合而已，所以最近實際到手之後想要來試試看實際用起來的感覺。順便用用看最近大家滿推的新 Fedora&amp;hellip;
+軟體相容性包含幾個面向，這邊不廢話直接來測試一下&amp;hellip;
+測試一下 前置作業，我這邊把 Fedora 給裝起來 https://getfedora.org/en/workstation/download/
+裝好之後這邊做一些前置作業，把環境搭起來
+dnf 設定調整一下 sudo gnome-text-editor /etc/dnf/dnf.conf 後面追加 fastestmirror=True deltarpm=True max_parallel_downloads=10 系統更新 sudo dnf update 把 RPM-Fusion 裝起來，Free 跟 Non-Free 都要 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm 把 FlatHub 裝起來 sudo dnf install https://download1.</description>
+    </item>
+    
     <item>
       <title>開箱！Quest 2 Halo Strap	- CP 值不錯高的廉價副廠頭戴</title>
       <link>https://raichancat.github.io/2021/quest2-halo-strap/</link>
@@ -35,8 +48,8 @@ OK，拿出來跟我的 Quest 擺在一起
 折起來大概可以這樣子。
 我自己的習慣是會先折成這樣，然後把眼鏡塞進去，再把頭戴上去，把頭戴折下來鎖緊這樣。整體流程還算滿直覺得，不禁會覺得喔天啊，之前的那個鬆緊帶真的是惡夢&amp;hellip;
 OK，所以開箱就小小的到這邊
- 基本上我就在這邊簡單的做一個小評
- 那個看起來跟用起來的感覺的確不太像是一個 765 元的玩意 舒適度的確有極大幅的提升，已經回不去了 眼罩的部分能確實平均的壓在臉上 轉頭頭顯會比較穩定，不會被甩出去的感覺 眼鏡搭配這個頭戴之後會被卡住，眼鏡就不會在裡面滾來滾去，失焦，或是刮傷裡面的鏡片了  我覺得對於一個幾百塊的頭戴來說我覺得夠了，至少我平常玩 Beatsaber 或是其他遊戲的體驗真的有大幅提升，感覺還不賴&amp;hellip; 這個我覺得是能推薦給大家拉，只是不推薦在台灣的拍賣買就是了（真的神扯貴）
+基本上我就在這邊簡單的做一個小評
+那個看起來跟用起來的感覺的確不太像是一個 765 元的玩意 舒適度的確有極大幅的提升，已經回不去了 眼罩的部分能確實平均的壓在臉上 轉頭頭顯會比較穩定，不會被甩出去的感覺 眼鏡搭配這個頭戴之後會被卡住，眼鏡就不會在裡面滾來滾去，失焦，或是刮傷裡面的鏡片了 我覺得對於一個幾百塊的頭戴來說我覺得夠了，至少我平常玩 Beatsaber 或是其他遊戲的體驗真的有大幅提升，感覺還不賴&amp;hellip; 這個我覺得是能推薦給大家拉，只是不推薦在台灣的拍賣買就是了（真的神扯貴）
 不過跟那個究極方案（Quest 2 轉接 HTC Vive Deluxe 頭戴）比起來，舒適度、做工以及便利性還是差了一截就是了，預算有夠，而且有能力搞到一台那個頭戴的話我覺得比較值得。（但是那個是3500+的玩意唉，一個能買這個5台)</description>
     </item>
     
@@ -48,12 +61,14 @@ OK，所以開箱就小小的到這邊
       <guid>https://raichancat.github.io/2021/quest2-cover-replace/</guid>
       <description>前陣子有在 Reddit 看到關於 Quest 2 的那個原廠天鵝絨臉部靠墊會引發部分使用者的過敏反應的訊息，於是官方就給了一個能夠申請臉部靠墊替換品的方案，所以這邊簡單紀錄一下整個更換的流程以及收到的東西。
 申請條件 基本上只要符合這些條件，都能申請一個新的臉部靠墊：
- 2021/1/4 之前製造 序號前五碼為 1WMVR 或 1WMHH 倒數第四碼為 0  序號的部分最容易查看的地方就在頭顯右側把那個頭戴的固定器拆掉，寫在上面，建議可以抄起來備用
+2021/1/4 之前製造 序號前五碼為 1WMVR 或 1WMHH 倒數第四碼為 0 序號的部分最容易查看的地方就在頭顯右側把那個頭戴的固定器拆掉，寫在上面，建議可以抄起來備用
 不過 Facebook 官方沒有出天鵝絨襯墊以外的臉部靠墊，所以是改升級送 VR Cover 的皮質靠墊，這個對於使用體驗可說是大大大大的提升啊！希望他們下一代原廠就用皮製的，順便附上鼻樑防漏光靠墊吧
-申請流程   打開 聯絡我們，點選上面的提交支援問題單   登入 Oculus 帳號後，填寫問題支援單（右上方能將問題單切為中文） 將有打 * 號的填寫即可
-  申請出去之後客服就會寄一封信，點擊上面的「此處」就能夠購買 0 元的眼罩   購買眼罩，注意結帳的金額 -29$，點選結帳   填寫購買資訊即可下單即可，記得收件資訊要使用英文資訊
-郵局 - 英文地址音譯   下單後這筆訂單不會出現在你 Oculus 的購買紀錄裡面，僅能從 email 的信裡面查看訂單狀態。
-收貨  2021/06/21 15:09 提交問題支援單 2021/06/21 15:55 收到替換品購買連結 2021/06/21 16:00 下單 2021/06/23 02:06 美國出貨 2021/06/25 11:55 到貨  離譜的速度到貨了，連 EZWay 都來不及按 ww</description>
+申請流程 打開 聯絡我們，點選上面的提交支援問題單 登入 Oculus 帳號後，填寫問題支援單（右上方能將問題單切為中文） 將有打 * 號的填寫即可
+申請出去之後客服就會寄一封信，點擊上面的「此處」就能夠購買 0 元的眼罩 購買眼罩，注意結帳的金額 -29$，點選結帳 填寫購買資訊即可下單即可，記得收件資訊要使用英文資訊
+郵局 - 英文地址音譯 下單後這筆訂單不會出現在你 Oculus 的購買紀錄裡面，僅能從 email 的信裡面查看訂單狀態。
+收貨 2021/06/21 15:09 提交問題支援單 2021/06/21 15:55 收到替換品購買連結 2021/06/21 16:00 下單 2021/06/23 02:06 美國出貨 2021/06/25 11:55 到貨 離譜的速度到貨了，連 EZWay 都來不及按 ww
+被阿嬤貓戲稱是大象的眼罩嗎？這麼大一個箱子幹嘛 www
+VR Cover 本體</description>
     </item>
     
   </channel>

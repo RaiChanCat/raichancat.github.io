@@ -9,7 +9,20 @@
       <link>https://raichancat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 20 Jan 2022 22:07:51 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/categories/%E9%96%8B%E7%99%BC/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Aug 2022 00:57:21 +0800</lastBuildDate><atom:link href="https://raichancat.github.io/categories/%E9%96%8B%E7%99%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>嘗試在 Linux 上面玩 VR -&gt; VRChat 篇</title>
+      <link>https://raichancat.github.io/2022/linux-vr-vrchat/</link>
+      <pubDate>Mon, 29 Aug 2022 00:57:21 +0800</pubDate>
+      
+      <guid>https://raichancat.github.io/2022/linux-vr-vrchat/</guid>
+      <description>環境 Intel Core i9 12900 NVidia GeForce RTX 3080 32GB DDR4-3200 Fedora Workstation 36 Valve Index 前言 以前還持有 Quest 2 的時候有看到有人說 Linux 底下玩 VR 軟體的部分只有 Index 比較適合而已，所以最近實際到手之後想要來試試看實際用起來的感覺。順便用用看最近大家滿推的新 Fedora&amp;hellip;
+軟體相容性包含幾個面向，這邊不廢話直接來測試一下&amp;hellip;
+測試一下 前置作業，我這邊把 Fedora 給裝起來 https://getfedora.org/en/workstation/download/
+裝好之後這邊做一些前置作業，把環境搭起來
+dnf 設定調整一下 sudo gnome-text-editor /etc/dnf/dnf.conf 後面追加 fastestmirror=True deltarpm=True max_parallel_downloads=10 系統更新 sudo dnf update 把 RPM-Fusion 裝起來，Free 跟 Non-Free 都要 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm 把 FlatHub 裝起來 sudo dnf install https://download1.</description>
+    </item>
+    
     <item>
       <title>來聊 Unity WebGL build</title>
       <link>https://raichancat.github.io/2022/unity-webgl/</link>
@@ -35,10 +48,10 @@ Unity WebGL 沒有 WebXR 支援，儘管有人做 plugin 來做相容。 https:/
       <guid>https://raichancat.github.io/2021/docsify/</guid>
       <description>簡介 首先不免俗地來簡單介紹一下 Docsify 是什麼。 Docsify 是一個文件生產器，以線上直接解析 Markdown 的方式來呈現網頁內容。
 特色：
- 無靜態產生的 HTML 檔（除了首頁的設定檔 HTML 以外其他都是 MD 檔） 簡單而且輕量 內建搜尋外掛 多種佈景 外掛支援 表情符號支援 IE11 支援 支援伺服器端 render  簡單來說就是一個好用的文件生產器，快速產生一個類似 GitBook 架構的網站，能掛在任何伺服器或是 GitHub Pages 之類的地方。
-安裝  先確定電腦有裝 NPM 吧，沒有的話去裝一下。 打開要存放的位置，用命令提示字元開啟這個路徑 (有裝 Windows Terminal 的話右鍵就有了，要不然就用 cd {路徑} 吧) 安裝 Docsify 至全系統  npm i docsify-cli -g 建立檔案 假設我們要將文件存放於 docs 資料夾裡面，我們就輸入指令 (至於為什麼是 docs，其實是為了 GitHub Pages 的預設目錄，能夠輕鬆地掛起來。)
+無靜態產生的 HTML 檔（除了首頁的設定檔 HTML 以外其他都是 MD 檔） 簡單而且輕量 內建搜尋外掛 多種佈景 外掛支援 表情符號支援 IE11 支援 支援伺服器端 render 簡單來說就是一個好用的文件生產器，快速產生一個類似 GitBook 架構的網站，能掛在任何伺服器或是 GitHub Pages 之類的地方。
+安裝 先確定電腦有裝 NPM 吧，沒有的話去裝一下。 打開要存放的位置，用命令提示字元開啟這個路徑 (有裝 Windows Terminal 的話右鍵就有了，要不然就用 cd {路徑} 吧) 安裝 Docsify 至全系統 npm i docsify-cli -g 建立檔案 假設我們要將文件存放於 docs 資料夾裡面，我們就輸入指令 (至於為什麼是 docs，其實是為了 GitHub Pages 的預設目錄，能夠輕鬆地掛起來。)
 docsify init ./docs 這邊解釋一下裏頭的文件分別在幹嘛
- index.html 進入的網頁，也是所有設定設定的地方 README.</description>
+index.html 進入的網頁，也是所有設定設定的地方 README.md 首頁的內容 .nojekyll 避免 GitHub Pages 當成這是個 Jekyll 忽略部分檔案的標記 文件的部分就是直接用 Typora 或是 VSCode 之類的工具編輯 md 檔即可，基本上絕大部分的語法都是無痛支援的，也能夠直接吃先前 GitBook 出來的檔案，其實我覺得很棒。</description>
     </item>
     
     <item>
@@ -55,7 +68,7 @@ Windows 裝置入口網站 若已設定過可以跳過 HoloLens 到 設定 &amp;
 點擊 Request pin 的按鈕
 此時 HoloLens 上會顯示 pin 碼
 將資料輸入到瀏覽器當中
- PIN displayed on your device 頭顯顯示的 PIN 碼 New user name 使用者名稱 New password 密碼 Confirm password 重新輸入密碼  瀏覽器會提示登入，輸入剛剛設定好的資訊
+PIN displayed on your device 頭顯顯示的 PIN 碼 New user name 使用者名稱 New password 密碼 Confirm password 重新輸入密碼 瀏覽器會提示登入，輸入剛剛設定好的資訊
 Windows 裝置入口網站順利開啟
 AppX 安裝 執行檔的結構如下</description>
     </item>
@@ -76,7 +89,7 @@ Target Device 選擇 HoloLens
 編譯的檔案會被放置於 /專案資料夾/Builds/WSAPlayer 編譯完成會顯示 Build Complete 視窗，點擊 Build AppX
 編譯途中不會有任何視窗，內容都會顯示於 Console 當中。完成之後會顯示 Command Successful
 編譯完成的執行檔會放置於 /專案資料夾/Builds/WSAPlayer/AppPackages/執行檔名稱/完整執行檔名稱 底下
-檔案架構  .appx 軟體安裝檔 Dependencies 依賴  ARM64 ARM64 平台依賴  .appx 依賴安裝檔      安裝的時候需要同時安裝軟體本體的 AppX 以及依賴的 AppX 其他的檔案就不是那麼重要了。</description>
+檔案架構 .appx 軟體安裝檔 Dependencies 依賴 ARM64 ARM64 平台依賴 .appx 依賴安裝檔 安裝的時候需要同時安裝軟體本體的 AppX 以及依賴的 AppX 其他的檔案就不是那麼重要了。</description>
     </item>
     
     <item>
@@ -86,10 +99,10 @@ Target Device 選擇 HoloLens
       
       <guid>https://raichancat.github.io/2021/unreal-dump/</guid>
       <description>不要拿來做一些奇怪的事，OK？
-拆包的一些基本常識  UE4 的素材裝在遊戲目錄底下的 Content/Paks 裡面的 Pak 檔，檔名上面會註明平台 -WindowsNoEditor 或是 -AndroidASTC 之類的 UE4 的執行檔放在 Binaries 裡面，像 Windows 會存放在 Binaries\Win64 裡面，通常檔名會帶有 -Win64-Shipping.exe  簡易的流程  絕大多數的 UE4 遊戲會將 pak 加密，因此我們要從遊戲運行當中擷取 AES 的金鑰。 透過專門的解包的工具將東西取出 透過能讀取 uassets 的工具來檢視裡面的內容  流程 AES 金鑰尋找   準備好 pak 檔案以及遊戲 exe 執行檔
-  下載 AES Key Finder 1.9 解壓縮
-  將遊戲 exe 執行檔貼到解壓縮後的 AES Key Finder 資料夾底下
-  將遊戲執行檔 exe 拖到 RUN Find 256-bit UE4 AES Key.</description>
+拆包的一些基本常識 UE4 的素材裝在遊戲目錄底下的 Content/Paks 裡面的 Pak 檔，檔名上面會註明平台 -WindowsNoEditor 或是 -AndroidASTC 之類的 UE4 的執行檔放在 Binaries 裡面，像 Windows 會存放在 Binaries\Win64 裡面，通常檔名會帶有 -Win64-Shipping.exe 簡易的流程 絕大多數的 UE4 遊戲會將 pak 加密，因此我們要從遊戲運行當中擷取 AES 的金鑰。 透過專門的解包的工具將東西取出 透過能讀取 uassets 的工具來檢視裡面的內容 流程 AES 金鑰尋找 準備好 pak 檔案以及遊戲 exe 執行檔
+下載 AES Key Finder 1.9 解壓縮
+將遊戲 exe 執行檔貼到解壓縮後的 AES Key Finder 資料夾底下
+將遊戲執行檔 exe 拖到 RUN Find 256-bit UE4 AES Key.bat，按 Enter 繼續 會做一些基本檢查，一路按 Enter 繼續 當找到金鑰的時候會顯示 Possible AES Key found!</description>
     </item>
     
   </channel>

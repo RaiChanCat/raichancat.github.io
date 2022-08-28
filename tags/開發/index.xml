@@ -35,11 +35,11 @@ Unity WebGL 沒有 WebXR 支援，儘管有人做 plugin 來做相容。 https:/
       <guid>https://raichancat.github.io/2021/gform-autocomplete/</guid>
       <description>原理 透過網址來預填表單，格式如下
 https://docs.google.com/forms/d/e/[表單連結]/viewform?&amp;amp;[欄位1代號]=[欄位1內容]&amp;amp;&amp;amp;[欄位2代號]=[欄位2內容]&amp;hellip;
- 表單連結點進去就會自動填入所有的項目 項目可以跨頁 跨頁的下一步還是得自己按 不管是選擇，簡答，下拉式選單，欄位內容的部分就直接填寫文字內容（或是選擇的內容）即可  欄位代號取得  打開表單，點擊 F12 開啟開發人員面板  在面板按下 command+F 或是 control + F 搜尋元素，輸入 entry.  你可以看到
+表單連結點進去就會自動填入所有的項目 項目可以跨頁 跨頁的下一步還是得自己按 不管是選擇，簡答，下拉式選單，欄位內容的部分就直接填寫文字內容（或是選擇的內容）即可 欄位代號取得 打開表單，點擊 F12 開啟開發人員面板 在面板按下 command+F 或是 control + F 搜尋元素，輸入 entry. 你可以看到
 action=&amp;quot;&amp;quot; 欄是表單連結
 name=&amp;ldquo;entry.xxxxxxxxxx&amp;rdquo; 是欄位代號
 value=&amp;ldquo;aaaa&amp;rdquo; 是欄位內容
-  網址建立 複製一下網址的連結，按照上面按照 原理 給的格式貼入相關的元素，拿我這份表單舉例
+網址建立 複製一下網址的連結，按照上面按照 原理 給的格式貼入相關的元素，拿我這份表單舉例
 https://docs.google.com/forms/d/e/viewform?[表單連結]&amp;amp;[欄位1代號]=[欄位1內容]&amp;amp;&amp;amp;[欄位2代號]=[欄位2內容]&amp;hellip;
 https://docs.google.com/forms/d/e/1FAIpQLSfN7WG27WOFUKygeLOPAMmI5N8TpsZH1hQENMGSAcGil7AGyQ/viewform?entry.1876558801=110/07/31&amp;amp;entry.1136496505=0900000000&amp;amp;entry.437250203=37.5&amp;amp;entry.836727167=A班&amp;amp;entry.1919260157=男&amp;amp;entry.1695249575=aaaa 順序其實無所謂，填完之後開新分頁打開連結
 將將！東西都自動填完了
@@ -48,7 +48,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSfN7WG27WOFUKygeLOPAMmI5N8TpsZH1hQENMGS
 例如說我其中一個欄位想要產生在 36.5~37.5 之間的亂數，以變數的方式安插在 URL 裡面就可以了
 或者是如果要分享給親朋好友用，透過 回報 的指令把一些欄位挖空即可，玩法還很多呢 www
 作完之後不免俗的放到桌面上方便之後快速呼叫多舒服www
- 除此之外像是剛剛有取出的 action 連結甚至可以拿來當作 POST 來用，可以直接傳參數進去做到完全自動化的填表單，酷吧！</description>
+除此之外像是剛剛有取出的 action 連結甚至可以拿來當作 POST 來用，可以直接傳參數進去做到完全自動化的填表單，酷吧！</description>
     </item>
     
     <item>
@@ -81,10 +81,10 @@ sh -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/ma
       <guid>https://raichancat.github.io/2021/docsify/</guid>
       <description>簡介 首先不免俗地來簡單介紹一下 Docsify 是什麼。 Docsify 是一個文件生產器，以線上直接解析 Markdown 的方式來呈現網頁內容。
 特色：
- 無靜態產生的 HTML 檔（除了首頁的設定檔 HTML 以外其他都是 MD 檔） 簡單而且輕量 內建搜尋外掛 多種佈景 外掛支援 表情符號支援 IE11 支援 支援伺服器端 render  簡單來說就是一個好用的文件生產器，快速產生一個類似 GitBook 架構的網站，能掛在任何伺服器或是 GitHub Pages 之類的地方。
-安裝  先確定電腦有裝 NPM 吧，沒有的話去裝一下。 打開要存放的位置，用命令提示字元開啟這個路徑 (有裝 Windows Terminal 的話右鍵就有了，要不然就用 cd {路徑} 吧) 安裝 Docsify 至全系統  npm i docsify-cli -g 建立檔案 假設我們要將文件存放於 docs 資料夾裡面，我們就輸入指令 (至於為什麼是 docs，其實是為了 GitHub Pages 的預設目錄，能夠輕鬆地掛起來。)
+無靜態產生的 HTML 檔（除了首頁的設定檔 HTML 以外其他都是 MD 檔） 簡單而且輕量 內建搜尋外掛 多種佈景 外掛支援 表情符號支援 IE11 支援 支援伺服器端 render 簡單來說就是一個好用的文件生產器，快速產生一個類似 GitBook 架構的網站，能掛在任何伺服器或是 GitHub Pages 之類的地方。
+安裝 先確定電腦有裝 NPM 吧，沒有的話去裝一下。 打開要存放的位置，用命令提示字元開啟這個路徑 (有裝 Windows Terminal 的話右鍵就有了，要不然就用 cd {路徑} 吧) 安裝 Docsify 至全系統 npm i docsify-cli -g 建立檔案 假設我們要將文件存放於 docs 資料夾裡面，我們就輸入指令 (至於為什麼是 docs，其實是為了 GitHub Pages 的預設目錄，能夠輕鬆地掛起來。)
 docsify init ./docs 這邊解釋一下裏頭的文件分別在幹嘛
- index.html 進入的網頁，也是所有設定設定的地方 README.</description>
+index.html 進入的網頁，也是所有設定設定的地方 README.md 首頁的內容 .nojekyll 避免 GitHub Pages 當成這是個 Jekyll 忽略部分檔案的標記 文件的部分就是直接用 Typora 或是 VSCode 之類的工具編輯 md 檔即可，基本上絕大部分的語法都是無痛支援的，也能夠直接吃先前 GitBook 出來的檔案，其實我覺得很棒。</description>
     </item>
     
     <item>
@@ -101,7 +101,7 @@ Windows 裝置入口網站 若已設定過可以跳過 HoloLens 到 設定 &amp;
 點擊 Request pin 的按鈕
 此時 HoloLens 上會顯示 pin 碼
 將資料輸入到瀏覽器當中
- PIN displayed on your device 頭顯顯示的 PIN 碼 New user name 使用者名稱 New password 密碼 Confirm password 重新輸入密碼  瀏覽器會提示登入，輸入剛剛設定好的資訊
+PIN displayed on your device 頭顯顯示的 PIN 碼 New user name 使用者名稱 New password 密碼 Confirm password 重新輸入密碼 瀏覽器會提示登入，輸入剛剛設定好的資訊
 Windows 裝置入口網站順利開啟
 AppX 安裝 執行檔的結構如下</description>
     </item>
@@ -122,7 +122,7 @@ Target Device 選擇 HoloLens
 編譯的檔案會被放置於 /專案資料夾/Builds/WSAPlayer 編譯完成會顯示 Build Complete 視窗，點擊 Build AppX
 編譯途中不會有任何視窗，內容都會顯示於 Console 當中。完成之後會顯示 Command Successful
 編譯完成的執行檔會放置於 /專案資料夾/Builds/WSAPlayer/AppPackages/執行檔名稱/完整執行檔名稱 底下
-檔案架構  .appx 軟體安裝檔 Dependencies 依賴  ARM64 ARM64 平台依賴  .appx 依賴安裝檔      安裝的時候需要同時安裝軟體本體的 AppX 以及依賴的 AppX 其他的檔案就不是那麼重要了。</description>
+檔案架構 .appx 軟體安裝檔 Dependencies 依賴 ARM64 ARM64 平台依賴 .appx 依賴安裝檔 安裝的時候需要同時安裝軟體本體的 AppX 以及依賴的 AppX 其他的檔案就不是那麼重要了。</description>
     </item>
     
     <item>
@@ -132,10 +132,10 @@ Target Device 選擇 HoloLens
       
       <guid>https://raichancat.github.io/2021/unreal-dump/</guid>
       <description>不要拿來做一些奇怪的事，OK？
-拆包的一些基本常識  UE4 的素材裝在遊戲目錄底下的 Content/Paks 裡面的 Pak 檔，檔名上面會註明平台 -WindowsNoEditor 或是 -AndroidASTC 之類的 UE4 的執行檔放在 Binaries 裡面，像 Windows 會存放在 Binaries\Win64 裡面，通常檔名會帶有 -Win64-Shipping.exe  簡易的流程  絕大多數的 UE4 遊戲會將 pak 加密，因此我們要從遊戲運行當中擷取 AES 的金鑰。 透過專門的解包的工具將東西取出 透過能讀取 uassets 的工具來檢視裡面的內容  流程 AES 金鑰尋找   準備好 pak 檔案以及遊戲 exe 執行檔
-  下載 AES Key Finder 1.9 解壓縮
-  將遊戲 exe 執行檔貼到解壓縮後的 AES Key Finder 資料夾底下
-  將遊戲執行檔 exe 拖到 RUN Find 256-bit UE4 AES Key.</description>
+拆包的一些基本常識 UE4 的素材裝在遊戲目錄底下的 Content/Paks 裡面的 Pak 檔，檔名上面會註明平台 -WindowsNoEditor 或是 -AndroidASTC 之類的 UE4 的執行檔放在 Binaries 裡面，像 Windows 會存放在 Binaries\Win64 裡面，通常檔名會帶有 -Win64-Shipping.exe 簡易的流程 絕大多數的 UE4 遊戲會將 pak 加密，因此我們要從遊戲運行當中擷取 AES 的金鑰。 透過專門的解包的工具將東西取出 透過能讀取 uassets 的工具來檢視裡面的內容 流程 AES 金鑰尋找 準備好 pak 檔案以及遊戲 exe 執行檔
+下載 AES Key Finder 1.9 解壓縮
+將遊戲 exe 執行檔貼到解壓縮後的 AES Key Finder 資料夾底下
+將遊戲執行檔 exe 拖到 RUN Find 256-bit UE4 AES Key.bat，按 Enter 繼續 會做一些基本檢查，一路按 Enter 繼續 當找到金鑰的時候會顯示 Possible AES Key found!</description>
     </item>
     
   </channel>
