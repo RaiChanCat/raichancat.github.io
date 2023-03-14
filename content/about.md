@@ -113,8 +113,7 @@ _build:
 
 ---
 
-如果你不怕話很多貓貓的話　
-這裡是我的 **FaceBook**：[https://www.facebook.com/RaiChanCat](https://www.facebook.com/RaiChanCat)
+如果你不怕話很多貓貓的話...這裡是我的 **FaceBook**：[https://www.facebook.com/RaiChanCat](https://www.facebook.com/RaiChanCat)
 
 整天在那邊喵喵叫。
 
